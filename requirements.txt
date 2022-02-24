@@ -1,0 +1,12 @@
+# this V33 (Feb/2022) grom jjrobotics requires Python 3.5 or 3.6, I went with 3.6 and in Pzcharm after installing dependencies below
+# works ok and I can run UI in SCARA_CONTROLL_V33_no_leap but zou need download images and subfolders 
+# from previous version V32 (4 Feb/2020) as (Feb/2022) is only 2 files
+
+matplotlib==2.0.1   # pip install matplotlib==2.0.1
+numpy==1.16.4 # pip install numpy==1.16.4
+opencv_python==4.1.0.25 # pip install opencv-python==4.1.0.25
+pygame==1.9.6 # pip install pygame==1.9.6 
+Pillow==7.0.0 # pip install Pillow==7.0.0 # according pypi requires: Python >=3.5
+pyserial==3.4 # pip install pyserial==3.4 
+pyparsing==1.5.6 # if used f.e. 3.0.7 programm in exception blocks throws error
+
